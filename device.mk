@@ -75,3 +75,6 @@ $(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
+
+# Call Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
