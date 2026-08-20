@@ -12,6 +12,18 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
 
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
+
+# Kernel modules
+BOOT_KERNEL_MODULES := \
+    focaltech_touch.ko \
+    hwid.ko \
+    msm_drm.ko \
+    xiaomi_touch.ko
+
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
+
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := haydn
 
