@@ -8,13 +8,25 @@
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := haydn
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2012K11G
-PRODUCT_NAME := lineage_haydn
+PRODUCT_NAME := infinity_haydn
+
+# Infinity Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+
+WITH_GAPPS := true
+INFINITY_MAINTAINER := THEㅤEGOㅤ999
+INFINITY_BUILD_TYPE := UNOFFICIAL
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true
+BYPASS_CHARGE_SUPPORTED := true
+TARGET_DISABLE_EPPE := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.19.0.UKKMIXM release-keys" \
