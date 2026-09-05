@@ -16,6 +16,13 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := lineage_haydn
 
+WITH_GMS := true
+TARGET_DISABLE_EPPE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := true
+EVO_BUILD_TYPE := Unofficial
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.19.0.UKKMIXM release-keys" \
     BuildFingerprint=Xiaomi/haydn_global/haydn:14/UKQ1.231207.002/V816.0.19.0.UKKMIXM:user/release-keys \
