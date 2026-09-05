@@ -85,3 +85,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/haydn-miuicamera/products/miuica
 
 # Call Gamebar
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
+# Call Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
