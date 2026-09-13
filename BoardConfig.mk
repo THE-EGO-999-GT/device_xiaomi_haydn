@@ -37,8 +37,8 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
 
-# Inherit MIUI-camera from proprietary files
--include vendor/xiaomi/miuicamera-haydn/BoardConfig.mk
+# Inherit from proprietary files for Leica Camera
+-include vendor/xiaomi/haydn-miuicamera/products/board.mk
 
 # Inherit Firmware (V816.0.19.0.UKKMIXM)
 -include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
