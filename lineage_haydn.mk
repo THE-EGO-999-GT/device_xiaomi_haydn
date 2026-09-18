@@ -27,3 +27,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Flags
 TARGET_INCLUDES_Torch_Light_Control := true
 TARGET_INCLUDES_Lineage_Health := true
+TARGET_INCLUDES_HIGH_TOUCH_POLLING := true
