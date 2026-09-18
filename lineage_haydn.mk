@@ -23,3 +23,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=haydn_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Flags
+TARGET_INCLUDES_Torch_Light_Control := true
