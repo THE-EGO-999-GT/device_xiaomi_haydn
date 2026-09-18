@@ -1,0 +1,50 @@
+[
+  {
+    "remote": "github",
+    "repository": "THE-EGO-999-GT/device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch": "evo"
+  },
+  {
+    "remote": "github",
+    "repository": "THE-EGO-999-GT/vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "Swiitch-OFF-Lab/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch": "16"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "THE-EGO-999-GL/vendor-xiaomi-haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "branch": "Sixteen-Leica"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "THE-EGO-999-GL/vendor-xiaomi-haydn-firmware",
+    "target_path": "vendor/xiaomi/haydn-firmware",
+    "branch": "global"
+  },
+  {
+    "remote": "github",
+    "repository": "THE-EGO-999-GT/kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/sm8350",
+    "branch": "lineage-23.2"
+  }
+]
