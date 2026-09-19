@@ -76,9 +76,6 @@ $(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
-# Call Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # Call the Leica Camera setup
 $(call inherit-product-if-exists, vendor/xiaomi/haydn-miuicamera/products/miuicamera.mk)
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
