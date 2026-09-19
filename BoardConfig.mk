@@ -47,3 +47,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
+
+# Inherit from proprietary files for Leica Camera
+-include vendor/xiaomi/haydn-miuicamera/products/board.mk
