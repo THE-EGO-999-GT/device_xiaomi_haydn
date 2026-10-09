@@ -1,0 +1,56 @@
+[
+  {
+    "remote": "github",
+    "repository": "crdroidandroid/android_device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch": "17.0-haydn"
+  },
+  {
+    "remote": "github",
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350",
+    "branch": "17.0-haydn"
+  },
+  {
+    "remote": "github",
+    "repository": "THE-EGO-999-GT/vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "branch": "lineage-24.0"
+  },
+  {
+    "remote": "github",
+    "repository": "THE-EGO-999-GT/vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "branch": "lineage-24.0"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "THE-EGO-999-GL/vendor-xiaomi-haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "branch": "Seventeen-Leica"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "THE-EGO-999-GL/vendor-xiaomi-haydn-firmware",
+    "target_path": "vendor/xiaomi/haydn-firmware",
+    "branch": "global"
+  },
+  {
+    "remote": "github",
+    "repository": "swiitch-OFF-Lab/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch": "sony-A17"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-24.0"
+  },
+  {
+    "remote": "github",
+    "repository": "THE-EGO-999-GT/packages_apps_GameBar",
+    "target_path": "packages/apps/GameBar",
+    "branch": "lineage-24.0"
+  }
+]
