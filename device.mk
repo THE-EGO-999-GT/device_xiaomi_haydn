@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureOverlayHaydn \
     FrameworkOverlayHaydn \
     SettingsOverlayHaydn \
     SettingsProviderOverlayHaydn \
